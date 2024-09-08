@@ -1,0 +1,99 @@
+
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #ff4500;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff4500;
+    text-decoration: underline;
+}
+
+/* Estilizando as Imagens */
+img {
+    margin: 15px 0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos Específicos para Promoções */
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #ff4500;
+    margin: 20px 0;
+}
+
+.promocoes {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.promocoes p {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.promocoes a {
+    display: block;
+    font-size: 1.5em;
+    color: #0066cc;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Estilos para Próximas Promoções */
+.proximas-promocoes img {
+    width: 300px;
+    height: 300px;
+}
+
+.proximas-promocoes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .proximas-promocoes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        width: 80%;
+    }
+}
