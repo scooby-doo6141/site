@@ -36,8 +36,8 @@ a:hover {
 img {
     margin: 15px 0;
     border: 2px solid #ccc;
-    border-radius: 10px;
-    transition: transform 1.0s;
+    border-radius: 100px;
+    transition: transform 0.2s;
 }
 
 img:hover {
